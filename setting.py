@@ -4,8 +4,8 @@ LB_name = 'HA_Servers'
 LB_user = 'root'
 LB_hosts = ['node1','node2']
 LB_mapping = {
-	'node1': ('172.20.4.40'),
-	'node2': ('172.20.4.49')
+	'node1': ('172.20.4.53'),
+	'node2': ('172.20.4.54')
 }
 
 HA_maxconn = '20000'
